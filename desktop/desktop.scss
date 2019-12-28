@@ -1,0 +1,122 @@
+.suggested-topics .topic-list {
+    width: 100%;
+}
+.details, .top-section {
+     padding: 20px;
+}
+.user-primary-navigation {
+    margin: 20px 0 10px;
+}
+.category-list .featured-topic {
+    margin: 10px 20px 0 0;
+ }
+.topic-post.regular {
+     margin-right: 11%;
+}
+.timeline-container {
+        margin-left: 81%;
+}
+@media (min-width: 1024px) {
+    .timeline-container {
+        margin-left: 73%;
+    }
+}
+@media (min-width: 1400px) {
+    .topic-post.regular {
+         margin-right: 5%;
+    }
+    .timeline-container {
+        margin-left: 76%;
+    }
+}
+
+@media (min-width: 1920px) {
+   .timeline-container {
+        margin-left: 1450px;
+    }
+}
+@media (min-width: 1024px) {
+    .wrap {
+        max-width: 1700px;
+        width: 90%
+    }
+     .user-summary-page .wrap, .categories-list .wrap, .navigation-topics .wrap {
+        max-width: 1200px;
+        width: 90%
+    }
+    .topic-body {
+        width: 80%;
+    }
+    #reply-control {
+        max-width: 1700px;
+        width: 88%
+    }
+    .composer-popup-container {
+        max-width: 1700px;
+        width: 90%
+    }
+    
+    .category-list .topics {
+        text-align: left;
+    }
+    .category-list .topics .badge-notification {
+        text-align: left!important;
+    }
+}
+
+#list-area {
+    margin-bottom:0px!important;
+}
+.navigation-categories .list-container {
+    padding: 0 0 0px 0px;
+    border-radius:0;
+}
+.regular {
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.topic-body {
+     padding: 25px 0 0 25px
+}
+.topic-body .topic-meta-data,  {
+    padding: 0 11px 0.25em 20px;
+}
+.topic-avatar {
+     padding-left: 0!important;   
+     padding-top: 25px
+}
+
+/**********embedded posts*************/
+
+.embedded-posts.top .topic-body {
+   border-top:none !important;
+    padding-top: 15px;
+}
+.embedded-posts.top.topic-body {
+    border: 2px solid #888;
+    border-top:2px solid #888 !important;
+    border-bottom:none;
+    padding: 0;
+}
+.embedded-posts .topic-avatar {
+    padding-left: 25px !important;
+    padding-top: 15px;
+}
+.embedded-posts .collapse-down, .embedded-posts .collapse-up {
+    border: 1px solid #888888;
+}
+.topic-avatar {
+  width: 90px;
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+}
+.embedded-posts .topic-avatar {
+  width: 45px;
+  img.avatar {
+    width: 45px;
+    height: 45px;
+  }
+}
